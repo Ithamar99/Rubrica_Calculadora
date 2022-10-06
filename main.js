@@ -12,7 +12,7 @@ function numero(num) {
 		alert('No se puede ingresar mas de un .');
 	}else{
 		if (existResult) {
-			borrarResultado();
+			//borrarResultado();
 			resultScreen.textContent += num;
 		}else{
 			resultScreen.textContent += num;
